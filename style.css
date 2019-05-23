@@ -1,3 +1,23 @@
 body {
     text-align: center;
 }
+
+#dogPhotos {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    grid-gap: 1rem;
+}
+
+.crop {
+    margin: 0 auto;
+    height: 99%;
+    width: 99%;
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    width: 350px;
+    box-shadow: 1px 5px 15px rgba(0,0,0,0.7);
+    border: 5px solid black;
+}
