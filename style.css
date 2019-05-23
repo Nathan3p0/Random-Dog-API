@@ -3,7 +3,7 @@ body {
 }
 
 #dogPhotos {
-    margin: 5rem;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
     grid-gap: 1rem;
@@ -15,8 +15,8 @@ body {
 
 .crop {
     margin: 0 auto;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 .crop img {
