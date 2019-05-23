@@ -3,10 +3,14 @@ body {
 }
 
 #dogPhotos {
-    margin-top: 5rem;
+    margin: 5rem;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
     grid-gap: 1rem;
+}
+
+#breedPhoto img {
+    max-width: 100%;
 }
 
 .crop {
